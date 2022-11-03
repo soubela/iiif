@@ -1,0 +1,66 @@
+{
+  "id" : "https://soubela.github.io/iiif/images/manifest.json",
+  "label" : {
+    "en" : [ "All images loaded in soubela/iiif project" ]
+  },
+  "type" : "Manifest",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "width" : 1440,
+    "id" : "https://soubela.github.io/iiif/images/download/canvas/",
+    "label" : {
+      "none" : [ "download" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://soubela.github.io/iiif/images/download/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://soubela.github.io/iiif/images/download/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 45,
+              "height" : 26
+            }, {
+              "width" : 90,
+              "height" : 51
+            }, {
+              "width" : 180,
+              "height" : 102
+            }, {
+              "width" : 360,
+              "height" : 203
+            }, {
+              "width" : 720,
+              "height" : 405
+            }, {
+              "width" : 1440,
+              "height" : 810
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 1440,
+            "@id" : "https://soubela.github.io/iiif/images/download",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 810
+          } ],
+          "format" : "image/jpeg",
+          "width" : 1440,
+          "id" : "https://soubela.github.io/iiif/images/download/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 810
+        },
+        "target" : "https://soubela.github.io/iiif/images/download/canvas/"
+      } ]
+    } ],
+    "height" : 810
+  } ]
+}
