@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 123,
+    "height" : 91
+  }, {
+    "width" : 246,
+    "height" : 181
+  }, {
+    "width" : 491,
+    "height" : 362
+  }, {
+    "width" : 981,
+    "height" : 724
+  }, {
+    "width" : 1961,
+    "height" : 1447
+  }, {
+    "width" : 3921,
+    "height" : 2894
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 3921,
+  "@id" : "https://soubela.github.io/iiif/images/1",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 2894
+}
