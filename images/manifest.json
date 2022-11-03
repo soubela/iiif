@@ -6,6 +6,63 @@
   "type" : "Manifest",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
+    "width" : 910,
+    "id" : "https://soubela.github.io/iiif/images/_DSF8691-2/canvas/",
+    "label" : {
+      "none" : [ "_DSF8691-2" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://soubela.github.io/iiif/images/_DSF8691-2/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://soubela.github.io/iiif/images/_DSF8691-2/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 29,
+              "height" : 43
+            }, {
+              "width" : 57,
+              "height" : 86
+            }, {
+              "width" : 114,
+              "height" : 171
+            }, {
+              "width" : 228,
+              "height" : 342
+            }, {
+              "width" : 455,
+              "height" : 683
+            }, {
+              "width" : 910,
+              "height" : 1365
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 910,
+            "@id" : "https://soubela.github.io/iiif/images/_DSF8691-2",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 1365
+          } ],
+          "format" : "image/jpeg",
+          "width" : 910,
+          "id" : "https://soubela.github.io/iiif/images/_DSF8691-2/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 1365
+        },
+        "target" : "https://soubela.github.io/iiif/images/_DSF8691-2/canvas/"
+      } ]
+    } ],
+    "height" : 1365
+  }, {
     "width" : 1440,
     "id" : "https://soubela.github.io/iiif/images/download/canvas/",
     "label" : {
